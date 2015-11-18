@@ -10,7 +10,7 @@ remote_file "/etc/nginx/conf.d/nginx.conf" do
   user "root"
 end
 
-remote_file "/etc/nginx/sites-available/nginx.conf" do
+remote_file "/etc/nginx/sites-available/default" do
   source "templates/etc/nginx/sites-available/default"
   user "root"
 end
