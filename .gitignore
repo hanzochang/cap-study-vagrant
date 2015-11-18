@@ -1,0 +1,6 @@
+.DS_Store
+/.vagrant
+/data/*
+/vender
+
+!/data/.keep

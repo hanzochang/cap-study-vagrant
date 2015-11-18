@@ -1,0 +1,24 @@
+ubuntu-env:
+  username: "vagrant"
+
+# node.yml
+rbenv:
+  global:
+    2.2.3
+  versions:
+    - 2.2.3
+  rbenv_root: "/home/vagrant/.rbenv/"
+  scheme: https
+
+mysql:
+  password: "password"
+
+rbenv-default-gems:
+  default-gems:
+    - bundler
+    - bcat ~>0.6
+    - rails --pre
+
+git-env:
+  user:
+    "corotany"
