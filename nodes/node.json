@@ -1,0 +1,22 @@
+[
+  {
+    "ubuntu-env": { "username": "vagrant" }
+  },
+  {
+    "rbenv": {
+      "global": "2.2.3",
+      "versions": ["2.2.3"],
+      "rbenv_root": "/home/vagrant/.rbenv/",
+      "scheme": "https"
+    }
+  },
+  {
+    "rbenv-default-gems": {
+      "default-gems": ["bundler", "bcat ~>0.6", "rails --pre"]
+    }
+  },
+  {
+    "mysql": { "password" : "password" }
+  }
+]
+
